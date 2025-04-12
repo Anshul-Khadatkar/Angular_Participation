@@ -12,6 +12,7 @@ tmp/
 
 # Environment variables
 .env
+!.env.example
 
 # IDE - VSCode
 .vscode/*
@@ -29,4 +30,9 @@ yarn-error.log*
 
 # System Files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Backend specific
+# Keep these commented out to ensure backend files are included
+# social-app/backend/node_modules/
+# social-app/backend/.env 
